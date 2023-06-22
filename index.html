@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profile</title>
+    <link rel = "stylesheet" href = "css/style.css">
+    <script src = "js/script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Temperature Conversion</h1>
+    </header>
+    <p>Masukkan suhu derajat Celcius (C) ke kotak dibawah, lalu klik tombol Konversi untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (F):</p>
+    <section class ="Section-1">
+        <label for ="InputField"><h2>Celcius (C):</h2></label>
+        <input type ="number" id = "InputField" class = "CelciusNumb" name = "Boxings">
+        <div class = "InputButtonSection">
+        <button onclick = "ConvertCF()" id ="ConvertCF">Conversion</button>
+        <button onclick = "ResetFuncCF()" id = "ResetFunc">Reset</button>
+        <button id = "ReverseFunc"><a href = "index2.html" class = "link">Reverse</a></button>
+    </div>
+    </section>
+    <section class = "Section-1">
+        <label for = "InputField"><h2>Fahrenheit (F):</h2></label>
+        <div id = "ResultField" class = "Boxings"><span id ="FahrenheitResult"></span></div>
+    </section>
+    <section class = "Section-1">
+        <label for = "InputField"><h2>Cara Kalkulasi:</h2></label>
+        <div id = "ResultField" class = "Boxings"><span id ="CaraKerjaCF"></span></div>
+    </section>
+    <br>
+    <button>
+        <a href ="index2.html" class = "link">Fahrenheit to Celcius</a>
+    </button>
+</body>
+</html>
